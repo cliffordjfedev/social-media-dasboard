@@ -19,6 +19,7 @@ $(document).ready(function () {
         $('label').removeClass('dark-mode').addClass('light-mode');
         $('#bgTop').addClass('background-top');
         $('#separator').removeClass('dark-separator').addClass('light-separator');
+        $('#attribution span').removeClass('text-white');
       } else {
         $(principalBox).removeClass('light').addClass('dark');
         $('h2').removeClass('card-light-mode-h2').addClass('card-dark-mode-h2');
@@ -32,6 +33,7 @@ $(document).ready(function () {
         $('label').removeClass('light-mode').addClass('dark-mode');
         $('#bgTop').removeClass('background-top');
         $('#separator').addClass('dark-separator').removeClass('light-separator');
+        $('#attribution span').addClass('text-white');
         
       }
        
